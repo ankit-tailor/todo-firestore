@@ -4,10 +4,6 @@ import "../App.css";
 export default function Todo({ title, deleteTodo, id, isChecked, checked }) {
   const [check, setCheck] = useState(isChecked);
 
-  const customStyle = {
-    textDecoration: check ? "line-through" : "none",
-  };
-
   return (
     <div key={id} id={id} className="todo">
       <input
