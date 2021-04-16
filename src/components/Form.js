@@ -41,6 +41,7 @@ export default function Form() {
           name="todo"
           placeholder="todo comes here..."
           value={todo}
+          required
         />
         <button type="submit">Add</button>
         {/* <button onClick={signOut}>Sign Out</button> */}
